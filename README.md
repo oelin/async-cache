@@ -3,6 +3,13 @@
 Cache return values of asynchronous JavaScript functions.
 
 
+## Installation
+
+```sh
+npm i async-cache
+```
+
+
 ## Usage
 
 Async cache allows you to store the results of time-consuming asynchronous operations so they take virtually no time in future! For instance, consider the following `sleep` function which simply stalls for some number of seconds and then returns.
